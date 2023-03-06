@@ -46,3 +46,11 @@
 .connect-header {
     padding-top: 5%;
 }
+
+hr {
+    height: 1px;
+    border-width: 0;
+    color: gray;
+    background-color: gray;
+    width: 90%;
+}
