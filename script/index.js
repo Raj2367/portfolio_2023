@@ -1,16 +1,33 @@
 function darkMode() {
-    var body = document.body;
+    let body = document.body;
     body.classList.toggle("dark-mode");
-    var button = document.getElementById("db");
+    let button = document.getElementById("db");
     button.classList.toggle("fa-sun");
     button.classList.toggle("fa-moon");
-    var articleContent = document.getElementById("article1");
-    articleContent.classList.toggle("article");
-    articleContent.classList.toggle("article-darkmode");
-    articleContent = document.getElementById("article2");
-    articleContent.classList.toggle("article");
-    articleContent.classList.toggle("article-darkmode");
-    articleContent = document.getElementById("article3");
-    articleContent.classList.toggle("article");
-    articleContent.classList.toggle("article-darkmode");
+    let cards = document.getElementsByClassName("card");
+    for (let i = 0; i < cards.length; i++) {
+        let card = cards[i];
+        if (!card.classList.contains("bg-dark")) {
+            card.classList.add("text-white");
+            card.classList.add("bg-dark");
+        } else {
+            card.classList.remove("text-white");
+            card.classList.remove("bg-dark");
+        }
+    }
+    let cardLinks = document.getElementsByClassName("card-link");
+    for (let i = 0; i < cardLinks.length; i++) {
+        let card = cardLinks[i];
+        if (!card.classList.contains("text-white")) {
+            card.classList.add("text-white");
+        } else {
+            card.classList.remove("text-white");
+        }
+    }
+    let readMore = document.getElementById("read-more");
+    if (!readMore.classList.contains("text-white")) {
+        readMore.classList.add("text-white");
+    } else {
+        readMore.classList.remove("text-white");
+    }
 }

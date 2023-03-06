@@ -1,5 +1,5 @@
 .dark-mode {
-    background-color: black;
+    background-color: #282626;
     color: white;
 }
 
@@ -18,22 +18,31 @@
     padding-top: 5%;
 }
 
-.article {
+#read-more {
     text-decoration: none;
     color: black;
-    border: 2px solid black;
-    border-radius: 10%;
-    width: 50%;
-    margin: 5px;
-    padding: 10px;
+    padding-top: 2%;
 }
 
-.article-darkmode {
+.card-deck {
+    height: 70%;
+}
+
+.card-img-top {
+    min-height: 25vh;
+    max-height: 25vh;
+    background-color: greenyellow;
+}
+
+.card-link {
     text-decoration: none;
-    color: white;
-    border: 2px solid white;
-    border-radius: 10%;
-    width: 100%;
-    margin: 5px;
-    padding: 10px;
+    color: black;
+}
+
+.project-header {
+    padding-top: 5%;
+}
+
+.connect-header {
+    padding-top: 5%;
 }
