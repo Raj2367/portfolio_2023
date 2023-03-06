@@ -13,3 +13,27 @@
     font-size: 20px;
     border-radius: 25%;
 }
+
+.article-header {
+    padding-top: 5%;
+}
+
+.article {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 50%;
+    margin: 5px;
+    padding: 10px;
+}
+
+.article-darkmode {
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10%;
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
