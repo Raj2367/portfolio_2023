@@ -2,3 +2,14 @@
     background-color: black;
     color: white;
 }
+
+.author-name {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3px;
+}
+
+.toggle-button {
+    margin-top: 3px;
+    font-size: 20px;
+    border-radius: 25%;
+}
