@@ -1,3 +1,7 @@
+.main {
+    min-height: 90vh;
+}
+
 .dark-mode {
     background-color: #282626;
     color: white;
@@ -15,17 +19,13 @@
 }
 
 .article-header {
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 #read-more {
     text-decoration: none;
     color: black;
     padding-top: 2%;
-}
-
-.card-deck {
-    height: 70%;
 }
 
 .card-img-top {

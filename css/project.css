@@ -1,0 +1,35 @@
+.main {
+    min-height: 90vh;
+}
+
+.dark-mode {
+    background-color: #282626;
+    color: white;
+}
+
+.author-name {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.toggle-button {
+    margin-top: 3px;
+    font-size: 20px;
+    border-radius: 25%;
+}
+
+.content {
+    padding-top: 2%;
+}
+
+.project {
+    padding: 1%;
+}
+
+.project-img {
+    height: 100%;
+    width: 100%;
+    padding-left: 5%;
+}

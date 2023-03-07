@@ -14,10 +14,10 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container main">
         <div class="header row">
             <div class="author-name col-10">
-                <h4>Pruthwiraj Nayak</h4>
+                <h5>Pruthwiraj Nayak</h5>
             </div>
             <div class="col-2">
                 <button class="toggle-button" onclick=" darkMode()">
@@ -123,17 +123,52 @@
                     <div class="col-md-7"></div>
                 </div>
             </div>
-            <div class="project-section row">
-                <div class="col-md-1"></div>
-                <div class="project-header col-md-11">
-                    <h5>
-                        <i>Projects</i>
-                        <img class="align-middle" src="./public/icons/icons8-engineering-32.png" />
-                    </h5>
+            <div class="project-section">
+                <div class="project-header row">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-11">
+                        <h5>
+                            <i>Projects</i>
+                            <img class="align-middle" src="./public/icons/icons8-engineering-32.png" />
+                        </h5>
+                    </div>
                 </div>
-                <div class="col-md-1"></div>
-                <div class="project-content col-md-11">
-                    Coming soon...
+                <div class="project-content row">
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-4">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./public/images/codemetrics.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Codemetrics</h5>
+                                <p class="card-text text-justify">
+                                    An react application which fetch data from sonarqube and represent in both
+                                    graphically and numerically. It can be used by different teams in an
+                                    organisation to set target and track progress.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="./public/images/cognito_poc.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Simplilearn Accounts</h5>
+                                <p class="card-text text-justify">
+                                    I was responsible for creating this micro-service based application for user
+                                    management. We have integrated AWS cognito, MongoDB, ejs templating for
+                                    registration, login, password managemnet etc of Users.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3"></div>
+                    <div class="col-md-12 row">
+                        <div class="col-md-1"></div>
+                        <a id="read-more" href='project.html' class="col-md-4">
+                            View all projects...
+                        </a>
+                        <div class="col-md-7"></div>
+                    </div>
                 </div>
             </div>
             <div class="connect-section">
@@ -150,11 +185,12 @@
                 <div class="connect-content row">
                     <div class="col-md-1"></div>
                     <div class="col-md-9">
-                        I'm always happy to connect with others and discuss ideas or chat about shared interests.
-                        Whether it's node application development, prototyping, design, technology, or even something
-                        completely unrelated like badminton <img class="align-middle"
-                            src="./public/icons/icons8-badminton-32.png" />, I'm open to exploring new topics and
-                        connecting with like-minded individuals. Let's talk and see where our conversations take us!
+                        <p>I'm always happy to connect with others and discuss ideas or chat about shared interests.
+                            Whether it's node application development, prototyping, design, technology, or even
+                            something completely unrelated like badminton <img class="align-middle"
+                                src="./public/icons/icons8-badminton-32.png" />, I'm open to exploring new topics and
+                            connecting with like-minded individuals. Let's talk and see where our conversations take us!
+                        </p>
                     </div>
                     <div class="col-md-2"></div>
                 </div>
