@@ -24,10 +24,13 @@ function darkMode() {
             card.classList.remove("text-white");
         }
     }
-    let readMore = document.getElementById("read-more");
-    if (!readMore.classList.contains("text-white")) {
-        readMore.classList.add("text-white");
-    } else {
-        readMore.classList.remove("text-white");
+    let readMoreClasses = document.getElementsByClassName("read-more");
+    for (let i = 0; i < readMoreClasses.length; i++) {
+        const readMore = readMoreClasses[i];
+        if (!readMore.classList.contains("text-white")) {
+            readMore.classList.add("text-white");
+        } else {
+            readMore.classList.remove("text-white");
+        }
     }
 }

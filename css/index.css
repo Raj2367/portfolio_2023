@@ -22,10 +22,10 @@
     padding-top: 3%;
 }
 
-#read-more {
+.read-more {
     text-decoration: none;
     color: black;
-    padding-top: 2%;
+    padding: 2%;
 }
 
 .card-img-top {
