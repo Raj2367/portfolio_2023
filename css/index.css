@@ -7,6 +7,16 @@
     color: white;
 }
 
+.dark-mode .card {
+    background-color: #343a40;
+    color: white;
+}
+
+.dark-mode .card-link,
+.dark-mode .read-more {
+    color: white;
+}
+
 .author-name {
     font-family: 'Times New Roman', Times, serif;
     margin-top: 3px;
