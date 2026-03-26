@@ -11,9 +11,24 @@
     background-color: #343a40;
     color: white;
 }
+
 .dark-mode .author-name {
     color: white;
 }
+
+.dark-mode .github {
+    content: url("../public/icons/GitHub_Invertocat_White_Clearspace.png");
+}
+
+.github {
+    width: 30px;
+    height: 30px;
+}
+
+.view-demo {
+    margin: 10px;
+}
+
 .author-name {
     font-family: 'Times New Roman', Times, serif;
     margin-top: 3px;
@@ -39,4 +54,8 @@
     height: 100%;
     width: 100%;
     padding-left: 5%;
+}
+
+.footer-section{
+    margin: 20px;
 }

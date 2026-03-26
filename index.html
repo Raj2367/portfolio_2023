@@ -1,218 +1,289 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Pruthwiraj</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='css/index.css'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-</head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/index.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container main">
-        <div class="header row">
-            <div class="author-name col-10">
-                <h5>Pruthwiraj Nayak</h5>
-            </div>
-            <div class="col-2">
-                <button class="toggle-button" onclick=" darkMode()">
-                    <i id="db" class="fas fa-sun"></i>
-                </button>
-            </div>
+      <div class="header row">
+        <div class="author-name col-10">
+          <h5>Pruthwiraj Nayak</h5>
         </div>
-        <div class="content">
-            <div class="about-me-section row">
+        <div class="col-2">
+          <button class="toggle-button" onclick=" darkMode()">
+            <i id="db" class="fas fa-sun"></i>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <div class="about-me-section">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="about-me-header col-md-11">
+              <h3>Hi! I am Pruthwiraj</h3>
+            </div>
+            <div class="about-me-content col-md-12">
+              <div class="row">
                 <div class="col-md-1"></div>
-                <div class="about-me-header col-md-11">
-                    <h3>Hi! I am Pruthwiraj <img class="align-middle" src="./public/icons/icons8-babys-room-32.png" />
-                    </h3>
+                <div class="col-md-9">
+                  <p class="text-justify">
+                    Describe me as a Software engineer based on Bangalore
+                    (India), who build efficient and high-quality websites and
+                    constantly strive to learn and adopt new technologies. I am
+                    a dedicated and passionate software engineer who is
+                    committed to delivering exceptionalresults and creating
+                    software solutions that make a positive impact.
+                  </p>
                 </div>
-                <div class="about-me-content col-md-12">
-                    <div class="row">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-9">
-                            <p class="text-justify">
-                                Describe me as a Software engineer <img class="align-middle"
-                                    src="./public/icons/icons8-baby-app-32.png" /> based on Bangalore (India), who build
-                                efficient and high-quality websites and constantly strive to learn and adopt new
-                                technologies. I am a dedicated and passionate software engineer who is committed to
-                                delivering exceptionalresults and creating software solutions that make a positive
-                                impact <img class="align-middle" src="./public/icons/icons8-approval-32.png" />.
-                            </p>
-                        </div>
-                        <div class="col-md-2"></div>
-                    </div>
-                </div>
+                <div class="col-md-2"></div>
+              </div>
             </div>
-            <div class="article-section">
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <div class="article-header col-md-11">
-                        <h5>
-                            <i>Articles</i>
-                            <img class="align-middle" src="./public/icons/icons8-signing-a-document-32.png" />
-                        </h5>
-                    </div>
-                </div>
-                <div class="article-content row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-9">
-                        <div class="row">
-                            <div class="col-lg-4">
-                                <div class="card h-100">
-                                    <img class="card-img-top" src="./public/images/article3.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Let's decode HTTP</h5>
-                                        <p class="card-text text-justify">
-                                            All techies like myself, must have know the terms HTTP. This is a very
-                                            common terms, but how well exactly we know HTTP!!!Here, we will discuss from
-                                            the scratch to the very depth of HTTP...
-                                        </p>
-                                        <a href="https://medium.com/@pumpruw/lets-decode-http-b42cef6918ee"
-                                            class="card-link float-right" target="_blank">link
-                                            <i id="db" class="fas fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card h-100">
-                                    <img class="card-img-top" src="./public/images/article1.webp" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Basics of blockchain</h5>
-                                        <p class="card-text text-justify">
-                                            Before 5 months, there was a lot of news about blockchain and about its
-                                            implementation, which surfaces around the news. Like Microsoft reveals its
-                                            fully managed blockchain service to its cloud ...
-                                        </p>
-                                        <a href="https://medium.com/the-capital/what-is-blockchain-and-basics-of-ethereum-blockchain-network-9e4bc2278b2c"
-                                            class="card-link float-right" target="_blank">link
-                                            <i id="db" class="fas fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4">
-                                <div class="card h-100">
-                                    <img class="card-img-top" src="./public/images/article2.jpg" alt="Card image cap">
-                                    <div class="card-body">
-                                        <h5 class="card-title">Security features in blockchain</h5>
-                                        <p class="card-text text-justify">
-                                            When it comes to the security part, everyone is very conscious about their
-                                            data security and privacy. Before a decade internet was not so reliable
-                                            place...
-                                        </p>
-                                        <a href="https://medium.com/@pumpruw/security-features-of-blockchain-and-how-it-works-2870490d3461"
-                                            class="card-link float-right" target="_blank">link
-                                            <i id="db" class="fas fa-arrow-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-1"></div>
-                    <a class="read-more" href="https://medium.com/@pumpruw/" target="_blank" class="col-md-4">
-                        Read more...
-                    </a>
-                    <div class="col-md-7"></div>
-                </div>
-            </div>
-            <div class="project-section">
-                <div class="project-header row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-11">
-                        <h5>
-                            <i>Projects</i>
-                            <img class="align-middle" src="./public/icons/icons8-engineering-32.png" />
-                        </h5>
-                    </div>
-                </div>
-                <div class="project-content row">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-4">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="./public/images/codemetrics.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Codemetrics</h5>
-                                <p class="card-text text-justify">
-                                    An react application which fetch data from sonarqube and represent in both
-                                    graphically and numerically. It can be used by different teams in an
-                                    organisation to set target and track progress.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <div class="card h-100">
-                            <img class="card-img-top" src="./public/images/cognito_poc.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Simplilearn Accounts</h5>
-                                <p class="card-text text-justify">
-                                    I was responsible for creating this micro-service based application for user
-                                    management. We have integrated AWS cognito, MongoDB, ejs templating for
-                                    registration, login, password managemnet etc of Users.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3"></div>
-                    <div class="col-md-12 row">
-                        <div class="col-md-1"></div>
-                        <a class="read-more" href='project.html' class="col-md-4">
-                            View all projects...
-                        </a>
-                        <div class="col-md-7"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="connect-section">
-                <div class="connect-header row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-9">
-                        <h5>
-                            <i>Let's Connect</i>
-                            <img class="align-middle" src="./public/icons/icons8-handshake-32.png" />
-                        </h5>
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-                <div class="connect-content row">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-9">
-                        <p>I'm always happy to connect with others and discuss ideas or chat about shared interests.
-                            Whether it's node application development, prototyping, design, technology, or even
-                            something completely unrelated like badminton <img class="align-middle"
-                                src="./public/icons/icons8-badminton-32.png" />, I'm open to exploring new topics and
-                            connecting with like-minded individuals. Let's talk and see where our conversations take us!
-                        </p>
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="project-section">
+          <div class="project-header row">
+            <div class="col-md-1"></div>
+            <div class="col-md-11">
+              <h5>
+                <i>Projects</i>
+              </h5>
+            </div>
+          </div>
+          <div class="project-content row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="./public/images/edtech_dashboard.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">EMS</h5>
+                  <p class="card-text text-justify">
+                    An NextJS application for EdTech management with features
+                    like course-management, user-management ...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="./public/images/codemetrics.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Codemetrics</h5>
+                  <p class="card-text text-justify">
+                    An react application which fetch data from sonarqube and
+                    represent in both graphically and numerically. It can be ...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3">
+              <div class="card">
+                <img
+                  class="card-img-top"
+                  src="./public/images/cognito_poc.png"
+                  alt="Card image cap"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Simplilearn Accounts</h5>
+                  <p class="card-text text-justify">
+                    I was responsible for creating this micro-service based
+                    application for user management. We have integrated ...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-md-12 row">
+              <div class="col-md-1"></div>
+              <a class="read-more" href="project.html" class="col-md-4">
+                View all projects...
+              </a>
+              <div class="col-md-7"></div>
+            </div>
+          </div>
+        </div>
+        <div class="article-section">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="article-header col-md-11">
+              <h5>
+                <i>Articles</i>
+              </h5>
+            </div>
+          </div>
+          <div class="article-content row">
+            <div class="col-md-1"></div>
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card">
+                    <a
+                      href="https://medium.com/@pumpruw/lets-decode-http-b42cef6918ee"
+                      class="card-link float-right"
+                      target="_blank"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./public/images/article3.jpg"
+                        alt="Card image cap"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Let's decode HTTP</h5>
+                        <p class="card-text text-justify">
+                          All techies like myself, must have know the terms
+                          HTTP. This is a very common terms, but how well
+                          exactly we know ...
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card">
+                    <a
+                      href="https://medium.com/the-capital/what-is-blockchain-and-basics-of-ethereum-blockchain-network-9e4bc2278b2c"
+                      class="card-link float-right"
+                      target="_blank"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./public/images/article1.webp"
+                        alt="Card image cap"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Basics of blockchain</h5>
+                        <p class="card-text text-justify">
+                          Before 5 months, there was a lot of news about
+                          blockchain and about its implementation, which
+                          surfaces ...
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-lg-4">
+                  <div class="card">
+                    <a
+                      href="https://medium.com/@pumpruw/security-features-of-blockchain-and-how-it-works-2870490d3461"
+                      class="card-link float-right"
+                      target="_blank"
+                    >
+                      <img
+                        class="card-img-top"
+                        src="./public/images/article2.jpg"
+                        alt="Card image cap"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">
+                          Security features in blockchain
+                        </h5>
+                        <p class="card-text text-justify">
+                          When it comes to the security part, everyone is very
+                          conscious about their data security ...
+                        </p>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-1"></div>
+            <a
+              class="read-more"
+              href="https://medium.com/@pumpruw/"
+              target="_blank"
+              class="col-md-4"
+            >
+              Read more...
+            </a>
+            <div class="col-md-7"></div>
+          </div>
+        </div>
+        <div class="connect-section">
+          <div class="connect-header row">
+            <div class="col-md-1"></div>
+            <div class="col-md-9">
+              <h5>
+                <i>Let's Connect</i>
+                <img
+                  class="align-middle"
+                  src="./public/icons/icons8-handshake-32.png"
+                />
+              </h5>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+          <div class="connect-content row">
+            <div class="col-md-1"></div>
+            <div class="col-md-9">
+              <p class="text-justify">
+                To connect book a badminton court
+                <img
+                  class="align-middle"
+                  src="./public/icons/icons8-badminton-32.png"
+                />
+                on playo for me, or just drop an email
+                pruthwirajnayak08@gmail.com
+              </p>
+            </div>
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+      </div>
     </div>
     <hr />
     <div class="container">
-        <div class="footer-section text-center">
-            Made with Louuu <img class="align-middle" src="./public/icons/icons8-favorite-32.png" />...
-        </div>
+      <div class="footer-section text-center">
+        Code. Debug. Optimize. Repeat.
+      </div>
     </div>
-    <script src='script/index.js'></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script src="script/index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
